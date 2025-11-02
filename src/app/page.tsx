@@ -6,7 +6,7 @@ import "animate.css";
 export default function Home() {
   return (
     <>
-      <div className="grid grid-cols-12 min-h-screen bg-gradient-to-b pt-16 from-[#968f6e] via-[#d8cfae] to-[#f9f8f0]">
+      <div className="grid grid-cols-12 min-h-screen bg-gradient-to-b dark:from-[#0F0B09] dark:to-[#0F0B09] dark:via-[#0F0B09] pt-16 from-[#968f6e] via-[#d8cfae] to-[#f9f8f0]">
         <div className="col-span-6  px-15 pt-15">
           <div className="flex gap-3 items-center">
             <div className="bg-black flex justify-center items-center w-10 h-10 rounded-full">
@@ -85,13 +85,13 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="col-span-6  flex justify-center items-center">
+        <div className="col-span-6  hidden  lg:flex justify-center items-center">
           <div className="w-[330px] relative h-[500px]  rounded-2xl">
             <Image
               src="/assests/welcome7.jpg"
               width={370}
               height={800}
-              className="object-cover w-full h-[500px] rounded-2xl animate__animated animate__slideInDown "
+              className="object-cover dark:shadow-xl dark:shadow-[#C69A5E] w-full h-[500px] rounded-2xl animate__animated animate__slideInDown "
               alt="..."
             />
             <div className="animate__animated animate__slideInLeft absolute flex items-center backdrop-blur-2xl rounded-full border-1 border-[#beb89a] text-black z-10 p-3 px-5 top-3 -left-33 ">
@@ -168,7 +168,7 @@ export default function Home() {
               <span className="">Fashion</span>
             </div>
 
-            <div className="animate__animated animate__slideInRight absolute bottom-7 backdrop-blur-2xl p-3 rounded-xl -right-17">
+            <div className="animate__animated animate__slideInRight absolute bottom-7 backdrop-blur-2xl p-3  rounded-xl -right-17">
               <div className="w-15 h-15 rounded-xl mb-2">
                 <Image
                   src="/assests/welcopy.jpg"

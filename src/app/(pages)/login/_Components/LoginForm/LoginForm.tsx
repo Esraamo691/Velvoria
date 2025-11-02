@@ -58,7 +58,7 @@ export function LoginForm() {
   }
 
   return (
-    <Card className="p-6 w-[40%] text-[#615c48] dark:text-[#E8CFA8] shadow-xl dark:bg-[#615c48] ">
+    <Card className="p-6 lg:w-[40%] w-full text-[#615c48] dark:text-[#E8CFA8] shadow-xl dark:bg-[#615c48] ">
       <h2 className="text-center text-2xl font-semibold mb-6">Login</h2>
 
       <Form {...form}>
