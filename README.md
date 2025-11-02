@@ -1,4 +1,4 @@
-# 🤎💕Velvoria Elegant E-Commerce Fashion Platform  
+# 🤎💕Velvoria E-Commerce Fashion Platform  
 
 **Velvoria** is a modern, elegant, and smooth e-commerce platform for fashion and lifestyle products.  
 It delivers a seamless shopping experience with a focus on simplicity, beauty, and performance.  
