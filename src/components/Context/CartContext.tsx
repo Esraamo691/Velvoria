@@ -26,7 +26,7 @@ export default function CartContextProvider({
   const [userId, setUserId] = useState<string>("");
   async function getCart() {
     if (session.status == "authenticated") {
-      const response = await fetch("http://localhost:3000/api/get-cart");
+      const response = await fetch(`${process.env.NEXTAUTH_URL}/api/get-cart`);
       const data: CartResponse = await response.json();
       setCartData(data);
       if (cartData?.data.cartOwner) {
