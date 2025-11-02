@@ -51,5 +51,5 @@ Everything from the product cards to the checkout flow is designed to feel **cle
 
 ## 💎 Author  
 
-Developed with ❤️ by **Esraa Mohamed**  
+Developed with ❤️ by **         Esraa Mohamed**  
 🪄 _Velvoria — because style should feel effortless._
