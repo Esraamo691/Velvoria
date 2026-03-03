@@ -138,7 +138,7 @@ export default function Navbar({ mode, changeMode }: NavbarProps) {
                 <DropdownMenuTrigger className="cursor-pointer outline-0 text-[#2c2921] dark:text-[#E8CFA8]">
                   <RiUserHeartFill />
                 </DropdownMenuTrigger>
-                <DropdownMenuContent className="bg-[#a99e7f]">
+                <DropdownMenuContent className="cursor-pointer bg-[#a99e7f]">
                   <DropdownMenuLabel>My Account</DropdownMenuLabel>
                   <DropdownMenuSeparator />
                   {session.status == "authenticated" ? (

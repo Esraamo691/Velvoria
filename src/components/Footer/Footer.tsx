@@ -100,12 +100,12 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex justify-between py-7 text-[#beb89a]">
-          <p className="flex gap-2 items-center">
+        <div className="md:flex block justify-between py-7 text-[#beb89a]">
+          <p className="flex  gap-2 items-center">
             <IoHeartCircleSharp className="text-[19px]" /> 2025 Velvoria, All
             rights reserved.
           </p>
-          <div className="flex gap-4">
+          <div className="md:flex block  gap-4">
             <p className="underline underline-offset-2">Privacy Policy</p>
             <p className="underline underline-offset-2">Terms of Services</p>
             <p className="underline underline-offset-2">Cookies Settings</p>

@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <>
       <div className="grid grid-cols-12 min-h-screen bg-gradient-to-b dark:from-[#0F0B09] dark:to-[#0F0B09] dark:via-[#0F0B09] pt-16 from-[#968f6e] via-[#d8cfae] to-[#f9f8f0]">
-        <div className="col-span-6  px-15 pt-15">
-          <div className="flex gap-3 items-center">
+        <div className="md:col-span-6 col-span-12  px-5 md:px-15 pt-15">
+          <div className="flex gap-3 md:justify-start justify-center  items-center">
             <div className="bg-black flex justify-center items-center w-10 h-10 rounded-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -26,15 +26,15 @@ export default function Home() {
             <div className="">
               <p className="font-bold">5.0 Rated</p>
               <p className="">
-                Read Our{" "}
+                Read Our
                 <span className="underline font-bold">Success Stories</span>
               </p>
             </div>
           </div>
-          <div className="font-bold mt-15 pb-10 border-b border-[#7f7861] font-serif text-8xl">
+          <div className="font-bold md:mt-15 mt-5 pb-10 border-b border-[#7f7861] font-serif text-center md:text-start md:text-8xl text-6xl">
             Velvoria
           </div>
-          <div className="py-5 border-b border-[#7f7861]">
+          <div className="py-5  border-b border-[#7f7861]">
             <p className="pb-8 text-[#6d6852] font-semibold">
               Easily Add And Organize Events, With Notifications
               <br /> To Keep Everyone Engaged
@@ -72,7 +72,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="gap-3 flex mt-10">
+          <div className="gap-3 flex justify-center md:justify-start md:mt-10 mt-5 ">
             <Link href={"/products"}>
               <Button className=" cursor-pointer p-6 bg-transparent text-[#433f32] border-2 font-bold border-[#6d6852] rounded-4xl text-[15px]">
                 Shop Now
@@ -85,13 +85,13 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="col-span-6  hidden  lg:flex justify-center items-center">
+        <div className="col-span-6  hidden lg:flex justify-center items-center">
           <div className="w-[330px] relative h-[500px]  rounded-2xl">
             <Image
               src="/assests/welcome7.jpg"
               width={370}
               height={800}
-              className="object-cover dark:shadow-xl dark:shadow-[#C69A5E] w-full h-[500px] rounded-2xl animate__animated animate__slideInDown "
+              className="object-cover dark:shadow-xl dark:shadow-[rgb(198,154,94)] w-full h-[500px] rounded-2xl animate__animated animate__slideInDown "
               alt="..."
             />
             <div className="animate__animated animate__slideInLeft absolute flex items-center backdrop-blur-2xl rounded-full border-1 border-[#beb89a] text-black z-10 p-3 px-5 top-3 -left-33 ">
